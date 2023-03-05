@@ -274,24 +274,25 @@ footer .social img {
 /*main part*/
 .rivers-grid {
     display: grid;
+    justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
 }
 .river-img-a{
     border: 10px solid white;
     transition: transform .5s;
     box-shadow: 5px 5px 10px darkgray;
-    margin-bottom: 15px;
+    margin-bottom: 75px;
     margin-left: 75px;
     grid-column: 1/6;
     grid-row: 1/5;
 }
 .river-img-b{
-    grid-column: 7/11;
+    grid-column: 6/11;
     grid-row: 6/11;
-    margin-top: 15px;
+    margin-top: 40px;
     margin-bottom: 15px;
-    margin-right: 1.5rem;
+    margin-right: -15px;
+    margin-left: 50px;
     border: 10px solid white;
     transition: transform .5s;
     box-shadow: 5px 5px 10px darkgray;
@@ -301,7 +302,7 @@ footer .social img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px darkgray;
     margin-left: 75px;
-    margin-top: 15px;
+    margin-top: 120px;
     grid-column: 1/6;
     grid-row: 11/16;
 }
@@ -322,7 +323,7 @@ footer .social img {
     grid-row: 1/6;
     margin-right: 75px;
     margin-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 75px;
 }
 .river-b{
     grid-column: 1/5;
@@ -331,24 +332,26 @@ footer .social img {
     margin-left: 75px;
     margin-bottom: 15px;
     margin-top: 15px;
+    color: white;
 }
 .river-c{
     grid-column: 6/11;
     grid-row: 11/16;
     margin-right: 75px;
     margin-left: 10px;
-    margin-top: 15px;
-
+    margin-top: 75px;
 }
 #background-river {
-    height: 600px;
+    height: 500px;
     background-color: #283E2F;
     grid-column: 1/11;
     grid-row: 6/11;
 }
-#background {
-    height: 725px;
-    background-color: #283E2F;
-    grid-column: 1/11;
-    grid-row: 4/9;
+.button-box-river {
+    text-align: center;
+    font-family: "roboto slab", Arial, Helvetica, sans-serif;
+    grid-column: 4/8;
+    grid-row: 17/18;
+    margin-top: 100px;
+    margin-bottom: -100px;
 }
