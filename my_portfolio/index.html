@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio | Web Programming </title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div id="content">
         <header>
             <a id="logo-link" href="index.html">
-                <img src="images/Logo_Personal_Site2.png" alt="My Logo">
+                <img class="logo" src="images/Logo_Personal_Site2.png" alt="My Logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -27,9 +28,9 @@
                 <h1 class="home-title">Web Programming</h1>
                 <h4>The perfect technology for your business</h4>
             </section>
-            <div id="personal-photo">
-                <img id="personal-img" src="images/myphoto.jpg">
-            </div>
+            <section id="personal-photo">
+                <img class="personal-img" src="images/myphoto.jpg" alt="My Photo">
+            </section>
         </div>
         <main class="home-grid">
             <section id="home-text1">
@@ -43,10 +44,10 @@
                     a new face for your business or your personal portfolio.</p>
                     </section>
             <section class="home-card1">
-                <img class="home-img" src="images/HomePage1.jpg">
+                <img class="home-img1" src="images/HomePage1.jpg" alt="Computer Code">
             </section>
             <div id="background"></div>
-            <section id="home-text2">
+            <section class="home-text2">
                 <p>Through our team, we can demonstrate the advantages that web 
                         programming and web design can have to increase the views 
                         and reach of potential customers. it is a better way to show 
@@ -57,13 +58,10 @@
                         know what you want for your business.This way we can make it a reality.</p>
             </section>
             <section class="home-card2">
-                <img class="home-img" src="images/Logo_Personal_Site.png">
+                <img class="home-img2" src="images/Logo_Personal_Site.png" alt="My Logo">
             </section>
         </main>
         <footer>
-            <p>Web Programming  &copy; 2023 - Anne Picanço </p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
             <div class="social">
                <a href="http://facebook.com" target="_blank">
                    <img src="images/facebook.png" alt="fb icon">
@@ -75,7 +73,10 @@
                    <img src="images/instagram.png" alt="instagram icon">
                </a>
             </div>
-         </footer>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <p>Web Programming  &copy; 2023 - Anne Picanço </p>
+        </footer>
     </div>
 </body>
 </html>
