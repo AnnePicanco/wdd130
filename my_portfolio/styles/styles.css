@@ -278,8 +278,126 @@ h2{
 }
 
 /*PAGE 3*/
-
-
+#contactus-background {
+    height: 500px;
+    background-color: #CCD5AE;
+    margin-top: 100px;
+    grid-column: 1/11;
+    grid-row: 1/2;
+}
+.contactus-img{
+    width: 350px;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid #427176;
+    margin-top: 125px;
+    margin-left: 150px;
+    margin-right: 50px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.msg{
+    text-align: center;
+    margin-top: 175px;
+    grid-column: 6/10;
+    grid-row: 1/2;
+    color: black;
+    margin-left: -80px ;
+    margin-right: 100px;
+}
+.msg h2{
+    text-align: center;
+    font-family: "iceland";
+    font-size: 1.5em;
+}
+.msg p{
+    font-family: "nunito";
+}
+.msg-contact{
+    grid-column: 6/9 ;
+    grid-row: 2/3;
+    margin-top: 150px;
+}
+.contactus2{
+    width: 900px;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid #427176;
+    grid-column: 2/7;
+    grid-row: 2/4;
+    margin-top: 200px;
+    z-index: -1;
+}
+.background2 {
+    height: 300px;
+    background-color: #CCD5AE;
+    margin-top: 100px;
+    grid-column: 6/9;
+    grid-row: 3/4;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px black;
+    border: 5px solid #427176;
+    margin-left: 40px;
+}
+.address:hover{
+    transform: scale(1.1);
+}
+.address{
+    text-align: center;
+    color: black;
+    grid-column: 6/9;
+    grid-row: 3/4;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #427176;
+    border-radius: 1em;
+    background-color: #427176;
+}  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}  
+form li + li {
+    margin-top: 1em;
+}  
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: #E9EDC9;
+}  
+input,textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box; 
+    border: 1px solid #427176;
+}
+input:focus, textarea:focus {
+    border-color: #E9EDC9;
+} 
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+.button {
+    padding-left: 90px; 
+}
+button {
+    margin-left: 0.5em;
+}
+#feedback {
+    background-color: #E9EDC9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
  /*RESPONSIVE*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
