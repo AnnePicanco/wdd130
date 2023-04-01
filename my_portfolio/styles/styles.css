@@ -276,6 +276,10 @@ h2{
     color: #427176;
     margin-left: -100px;
 }
+
+/*PAGE 3*/
+
+
  /*RESPONSIVE*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
