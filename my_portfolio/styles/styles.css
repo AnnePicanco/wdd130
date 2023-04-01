@@ -101,7 +101,7 @@ nav a:hover {
 #home-text1 p, #home-text2 p{
     font-family: "nunito", Verdana, Tahoma, sans-serif;
 }
-#home-text2 p{
+.home-text2 p{
     color: white;
 }
 #home-text1 {
