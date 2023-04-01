@@ -204,10 +204,7 @@ footer .social img {
 } 
 
 /*PAGE 2*/
-.ourwork-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
+
 #ourwork-background {
     height: 700px;
     background-color: #427176;
@@ -232,11 +229,13 @@ footer .social img {
 }
 .ourwork-text1{
     text-align: justify;
-    margin-top: 75px;
+    margin-top: 100px;
     grid-column: 6/10;
     grid-row: 2/3;
     color: white;
     font-family: "nunito";
+    margin-left: 50px;
+    margin-right: -85px;
 }
 h2{
     text-align: center;
@@ -429,13 +428,13 @@ button {
         display: block;
         margin: 0 auto;
     }
-    .home-text2{
+    .home-text2,.ourwork-text1{
         width: 80%;
         display: block;
         margin: 0 auto;
         color: black;
     }
-    .home-img1{
+    .home-img1 {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -443,12 +442,60 @@ button {
     .home-img2{
         width: 50%;
         display: block;
-        margin: 0 auto;
+        margin:auto;  
+    }
+    .ourwork-card1{
+        width: 30%;
+        display: block;
+        margin-left: 25px;
+    }
+    .ourwork-card2{
+        width: 40%;
+        display: block;
+        margin-left: 125px;
+    }
+    .ourwork-card3{
+        width: 40%;
+        display: block;
+        margin-left: 162.5px; 
+    }
+    .h2-water{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-right: -140px ;
+    }
+    .h2-river{
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        margin-right: -200px;
+    }
+    .contactus-img{
+        display: block;
+        margin: auto;
+    }
+    .msg{
+        display: block;
+        margin: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: -50px;
+    }
+    .contactus2{
+        display: none;
+    }
+    .address{
+        display: block;
+        margin: auto;
+        margin-bottom: 75px;
+        margin-top: 50px;
     }
     footer {
         margin-top: 25px;
     }
-    #background {
+    #ourwork-background, #background, #contactus-background,.background2 {
         display: none;
     }
     .social{
@@ -467,4 +514,3 @@ button {
         display: none;
     }
 }
-
