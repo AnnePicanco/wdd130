@@ -36,7 +36,7 @@ nav a {
 nav {
     display: flex;
     justify-content: space-around;
-    width: 150px auto;
+    
 }
 nav a:hover {
     background-color: #427176;
@@ -419,6 +419,11 @@ button {
     #hero-msg h4 {
         display: none;
     }
+    .personal-img{
+        display: block;
+        width: 60%;
+        align-self: center;
+    }
     .home-title {
         font-size: 50px;
         color: #427176;
@@ -428,11 +433,21 @@ button {
         display: block;
         margin: 0 auto;
     }
-    .home-text2,.ourwork-text1{
+    .ourwork-text1{
         width: 80%;
         display: block;
-        margin: 0 auto;
-        color: black;
+        margin: auto;
+        align-self: center;
+        color: black;  
+    }
+    .home-text2 p{
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-top: -100px;
+        margin-bottom: 50px;
+        align-self: center;
+        color: black;  
     }
     .home-img1 {
         width: 80%;
@@ -442,55 +457,65 @@ button {
     .home-img2{
         width: 50%;
         display: block;
-        margin:auto;  
+        margin:auto; 
+        margin-bottom: 50px; 
     }
-    .ourwork-card1{
-        width: 30%;
-        display: block;
-        margin-left: 25px;
+    .ourwork-img{
+       width: 60%;
+       margin: auto;
+       display: block;
+       align-self: center;
     }
-    .ourwork-card2{
-        width: 40%;
+    .ourwork-river{
+        width: 70%;
         display: block;
-        margin-left: 125px;
+        margin: auto;
+        align-self: center ;
+        margin-top: -300px;
     }
-    .ourwork-card3{
-        width: 40%;
+    .ourwork-water{
+        width: 70%;
         display: block;
-        margin-left: 162.5px; 
+        margin: auto;
+        align-self: center ;
+        margin-top: 50px;
     }
     .h2-water{
         display: block;
         margin: auto;
+        align-self: center;
         margin-top: 50px;
-        margin-right: -140px ;
+        margin-bottom: 50px;
     }
     .h2-river{
         display: block;
         margin: auto;
         margin-top: 50px;
-        margin-right: -200px;
+        align-self: center;
     }
     .contactus-img{
         display: block;
         margin: auto;
+        align-self: center;
     }
     .msg{
         display: block;
-        margin: auto;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 100px;
-        margin-bottom: -50px;
+        margin: auto 50px;
+        align-self: center;
     }
     .contactus2{
         display: none;
     }
+    .msg-contact{
+        display: block;
+        width: 80%;
+        margin: auto;
+        align-self: center;
+    }
     .address{
         display: block;
         margin: auto;
-        margin-bottom: 75px;
-        margin-top: 50px;
+        align-self: center;
     }
     footer {
         margin-top: 25px;
@@ -500,11 +525,6 @@ button {
     }
     .social{
         margin: auto;
-    }
-    .personal-img{
-        width: 30%;
-        display: block;
-        margin: 75px 210px 50px;
     }
     .logo {
         width: 150px;
